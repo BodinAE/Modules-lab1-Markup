@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules-lab1-Markup", "Modules-lab1-Markup\Modules-lab1-Markup.csproj", "{2E0170BC-77BB-43C2-97A3-A72EC32E16FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0170BC-77BB-43C2-97A3-A72EC32E16FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0170BC-77BB-43C2-97A3-A72EC32E16FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0170BC-77BB-43C2-97A3-A72EC32E16FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0170BC-77BB-43C2-97A3-A72EC32E16FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD7FECA9-8187-4DE6-A935-8290FB3249EA}
+	EndGlobalSection
+EndGlobal

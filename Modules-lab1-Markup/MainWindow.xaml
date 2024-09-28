@@ -1,0 +1,60 @@
+﻿<Window x:Class="Modules_lab1_Markup.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Modules_lab1_Markup"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <WrapPanel Name="panel7" DockPanel.Dock="Top" Height="30" Background="Aquamarine">
+            
+        </WrapPanel>
+        <StackPanel Name="panel6" DockPanel.Dock="Top" Height="30" Background="Bisque">
+            
+        </StackPanel>
+        <Grid Name="panel5" DockPanel.Dock="Right" Width="200">
+            <TabControl Background="Black" TabStripPlacement="Bottom">
+                <TabItem Header="Tab1"/>
+                <TabItem Header="Tab2"/>
+            </TabControl>
+        </Grid>
+        <Grid Name="panel38" DockPanel.Dock="Left" Width="200" >
+            <TabControl Background="Green" TabStripPlacement="Left">
+                <TabControl.ItemContainerStyle>
+                    <Style TargetType="TabItem">
+                        <Setter Property="LayoutTransform">
+                            <Setter.Value>
+                                <RotateTransform Angle="90"/>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </TabControl.ItemContainerStyle>
+                <TabItem Header="Tab1"/>
+                <TabItem Header="Tab2"/>
+            </TabControl>
+        </Grid>
+        <Grid Name="panel4" DockPanel.Dock="Bottom" Height="200" VerticalAlignment="Bottom">
+            <TabControl Background="BlueViolet" TabStripPlacement="Bottom">
+                <TabItem Header="Tab1"/>
+                <TabItem Header="Tab2"/>
+            </TabControl>
+        </Grid>
+        <Grid Name="panel12">
+            
+            <TabControl Background="DarkCyan">
+                <TabItem Header="Tab1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Tab2"/>
+            </TabControl>
+            
+        </Grid>
+    </DockPanel>
+</Window>
